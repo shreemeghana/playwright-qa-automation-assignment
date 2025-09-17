@@ -1,0 +1,32 @@
+# Node modules
+node_modules/
+
+# Playwright outputs
+test-results/
+playwright-report/
+blob-report/
+videos/
+screenshots/
+trace.zip
+*.zip
+
+# Logs
+logs/
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Env/config
+.env
+.env.local
+.env.*.local
+
+# IDE/project files
+.vscode/
+.idea/
+*.iml
+
+# Coverage
+coverage/
