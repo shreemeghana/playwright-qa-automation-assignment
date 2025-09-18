@@ -35,7 +35,7 @@ export default defineConfig({
       name: 'Inews Mobile Safari (iOS)',
       testMatch : /inews.spec.js/,
       use: {
-        ...devices['iPhone 12'],
+        ...devices['iPhone 16'],
         locale: 'en-GB',
         timezoneId: 'Europe/London',
         extraHTTPHeaders: {

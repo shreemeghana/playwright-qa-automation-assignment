@@ -1,32 +1,30 @@
-# QA Automation Test Project
+# Playwright QA Automation Assignment
 
-This project contains **Playwright automated tests** for validating analytics events and theme behavior across two sites:
-
-- **iNews Politics page** (mobile Chrome simulation)
-- **New Scientist** (desktop Chrome with Dark/Light mode)
-
----
-
-## Setup Instructions
-
-### 1. Install dependencies
-
+## Prerequisite
+Ensure you have the latest version of npm installed:
+```sh
+npm install -g npm@latest
 ```
+
+## Install
+Install all dependencies and Playwright browsers:
+```sh
 npm install
 npx playwright install
 ```
 
-### 2. Running tests
+## Running tests
+Run all tests:
+```sh
+npx playwright test
+```
+Or launch the Playwright Test Explorer UI:
+```sh
+npx playwright test --ui
+```
 
-Run all tests or use --ui for Test Explorer UI:
-```
-cd dmg-assignment/tests
-% npx playwright test
-or 
-% npx playwright test --ui 
-```
-
-### 3. View reports
-```
+## View Report
+View the test report after running tests:
+```sh
 npx playwright show-report
 ```
